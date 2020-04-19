@@ -1,0 +1,108 @@
+html{font-family:sans-serif;
+background-color:pink}
+
+header{text-align:center;
+font-size: 20px;}
+
+.fotoperfil{text-align: right;
+justify;}
+
+.C{color:red}
+.U{color:yellow}
+.R1{color:green}
+.R2{color:lightblue}
+.I{color:orange}
+.L{color:violet}
+.M{color:blue}
+.V{color:blueviolet}
+.T{color:brown}
+.A{color:goldenrod}
+.E{color:white}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+
+  /*Datos personales*/
+.datosper p {
+    width: 200px;
+    margin: 10px;
+    border: black 2px solid;
+    color:white
+
+  }
+  .datosper .p1{
+      background-color:lightblue
+  }
+  .datosper .p2{background-color:lightseagreen}
+
+  .datosper .p3{background-color:lightgreen}
+
+  .datosper .p4 {background-color:lightsalmon}
+
+  
+  /*idiomas*/
+  
+
+
+.lengua p {
+   text-align:center;
+    width: 200px;
+    margin: 50px;
+    
+    border: black 5px solid;
+    color:fuchsia;
+    font-size:35px;
+    
+  }
+  .lengua .p1{background:url(img/banderaespaña.png);
+    padding: 75px;}
+  .lengua .p2{background: url(img/banderavalencia.png);
+padding:50px}
+  .lengua .p3{background:url(img/unionjack.png);
+padding:50px}
+
+
+/*experiencia profesional*/
+
+.profexperiencia p {
+    width: 200px;
+    margin: 10px;
+    border: grey 2px solid;
+    color:white
+}
+    .profexperiencia .p1{background-color:black}
+    .profexperiencia .p2{background-color:white;color:black}
+
+    /*OTROS DATOS*/
+
+    .otros p{
+        width: 200px;
+        margin: 30px;
+        padding:40px;
+        border: black 2px solid;
+        color:white
+    }
+    .otros .p1{background-color:gold;color:red}
+    .otros .p2{background-color:silver;color:blue}
+    .otros .p3{background-color:brown;color:yellow}
+    .otros .p4{background-color:fuchsia}
+
+    /*PRESENTACION*/
+
+    .presentacion{text-align:center}
+.presenta{color:whitesmoke;
+font-size:40px}
+    .presenta .rojo{background-color:red}
+    .presenta .naranja{background-color:orange}
+    .presenta .amarillo{background-color:yellow;color:black}
+    .presenta .verde{background-color:greenyellow;color:black}
+    .presenta .azul{background-color:blue}
+    .presenta .morado{background-color:purple}
+    .presenta .fucsia{background-color:fuchsia}
+    
+    
